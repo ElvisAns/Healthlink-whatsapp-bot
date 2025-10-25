@@ -55,7 +55,7 @@ client.on('message', async message => {
 
         if (text !== 'go' && text !== 'go!') {
             finalMessage = `${salutation}
-Je suis HealthLink Bot
+Je suis Linky Bot de HealthLink (F Link)
 Merci pour votre message.
 A présent je ne peux pas répondre à des messages personnalisés mais je peux vous orienter sur comment utiliser HealthLink.
 
@@ -69,7 +69,8 @@ Vous pouvez commander votre bracelet/carte en nous écrivant sur https://wa.me/2
 Votre sécurité est notre priorité.`;
         } else {
             finalMessage = `Super!
-Bienvenu sur HealthLink.
+Je suis Linky Bot de HealthLink (F Link).
+
 C'est quoi HealthLink? Une solution pour vous aider à reprendre contrôle sur votre santé.
 Savourez une tranquillité d'esprit hors du commun sachant que même lorsque vous êtes inconscients, votre carte ou votre bracelet peut parler pour vous.
 
