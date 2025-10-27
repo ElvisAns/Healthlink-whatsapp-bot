@@ -36,7 +36,7 @@ client.on('auth_failure', msg => console.error('⚠️ Auth failure:', msg));
 client.on('message', async message => {
     const { body, from } = message;
 
-    if (from.includes('broadcast') || from.includes('status')) return;
+    if (from.includes('broadcast') || from.includes('status') || from.includes('group') || from.includes('channel') || from.includes('newsletter') || form.length > 12) return;
     if (processing.get(from)) {
         console.log(`⚙️ Ignored message from ${from}: already processing.`);
         return;
