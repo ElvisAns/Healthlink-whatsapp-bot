@@ -179,12 +179,12 @@ Je suis Linky Bot de HealthLink (F Link).
 
 Posez-moi une question sur HealthLink et je vous renseignerai!
 Vous pouvez me demander:
-- Qu'est-ce que HealthLink? https://wa.me/243892615790?text=${encodeURIComponent('Qu\'est-ce que HealthLink?')}
-- Comment commander? https://wa.me/243892615790?text=${encodeURIComponent('Comment commander?')}
-- Comment créer un compte? https://wa.me/243892615790?text=${encodeURIComponent('Comment créer un compte?')}
-- Fonctionnalités https://wa.me/243892615790?text=${encodeURIComponent('Fonctionnalités')}
-- Tarifs https://wa.me/243892615790?text=${encodeURIComponent('Tarifs')}
-- Comment créer un compte? https://wa.me/243892615790?text=${encodeURIComponent('Comment créer un compte?')}
+- Qu'est-ce que HealthLink? https://wa.me/243831218743?text=${encodeURIComponent('Qu\'est-ce que HealthLink?')}
+- Comment commander? https://wa.me/243831218743?text=${encodeURIComponent('Comment commander?')}
+- Comment créer un compte? https://wa.me/243831218743?text=${encodeURIComponent('Comment créer un compte?')}
+- Fonctionnalités https://wa.me/243831218743?text=${encodeURIComponent('Fonctionnalités')}
+- Tarifs https://wa.me/243831218743?text=${encodeURIComponent('Tarifs')}
+- Comment créer un compte? https://wa.me/243831218743?text=${encodeURIComponent('Comment créer un compte?')}
 - etc.
 
 Tapez "go" pour une présentation complète.`;
