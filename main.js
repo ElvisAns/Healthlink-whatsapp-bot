@@ -121,7 +121,7 @@ client.on('message', async message => {
     try {
         const text = body.toLowerCase();
         let finalMessage = '';
-        let salutation = 'Bonjour!';
+        let salutation = 'Bonjour';
 
         if (text.includes('salut')) salutation = 'Salut!';
         if (text.includes('bonsoir')) salutation = 'Bonsoir!';
