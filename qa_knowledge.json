@@ -251,5 +251,21 @@
     {
         "question": "Quelles informations critiques sont accessibles via la NFC sur le bracelet ?",
         "answer": "Via la NFC, les informations critiques accessibles hors ligne incluent généralement votre groupe sanguin, vos allergies connues, vos médicaments en cours et les contacts d'urgence. Ce sont les données essentielles pour une intervention rapide et sécurisée en cas d'incapacité de communiquer."
+    },
+    {
+        "question" : "Que'est ce qu'un profil vital de base ?",
+        "answer": "Un profil vital de base est un profil minimal de vos informations vitales. Il inclut généralement votre groupe sanguin, vos allergies connues, vos médicaments en cours et les contacts d'urgence. Ce sont les données essentielles pour une intervention rapide et sécurisée en cas d'incapacité de communiquer."
+    },
+    {
+        "question" : "Que peut faire Linky Bot de HealthLink ?",
+        "answer": "Linky Bot de HealthLink est un assistant IA qui peut répondre à vos questions sur HealthLink et sur la santé en général."
+    },
+    {
+        "question" : "Comment scanner un QR code healthlink?",
+        "response": "Pour scanner un QR code HealthLink, vous pouvez utiliser l'application HealthLink ou tout autre application de scan QR code. Vous pouvez également scanner le QR code avec votre caméra de téléphone. La maniere sure c'est le faire directement sur https://gethealth.link/public-scan."
+    },
+    {
+        "question": "Comment verifier mon profil vital healthlink?",
+        "response": "Pour verifier votre profil vital HealthLink, vous pouvez utiliser l'application HealthLink ou tout autre application de scan QR code. Vous pouvez également scanner le QR code avec votre caméra de téléphone. La maniere sure c'est le faire directement sur https://gethealth.link/public-scan."
     }
 ]
