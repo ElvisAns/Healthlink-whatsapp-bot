@@ -174,7 +174,7 @@ Votre sécurité est notre priorité.`;
             mediaFiles = [media2, media1];
         } else {
             // Just greetings
-            finalMessage = `${salutation}!
+            finalMessage = `${salutation}
 Je suis Linky Bot de HealthLink (F Link).
 
 Posez-moi une question sur HealthLink et je vous renseignerai!
