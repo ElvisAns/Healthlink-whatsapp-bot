@@ -1,0 +1,27 @@
+[Unit]
+Description=HealthLink Semantic Search Server
+After=network.target
+
+[Service]
+Type=simple
+User=whatsapp-bot
+Group=whatsapp-bot
+WorkingDirectory=/opt/healthlink-bot
+ExecStart=/usr/bin/python3 semantic_server.py 8000
+Restart=always
+RestartSec=10
+Environment=PYTHONUNBUFFERED=1
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/healthlink-bot
+
+# Resource limits
+LimitNOFILE=65536
+MemoryMax=256M
+
+[Install]
+WantedBy=multi-user.target

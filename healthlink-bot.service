@@ -1,0 +1,28 @@
+[Unit]
+Description=HealthLink WhatsApp Bot
+After=network.target
+
+[Service]
+Type=simple
+User=whatsapp-bot
+Group=whatsapp-bot
+WorkingDirectory=/opt/healthlink-bot
+ExecStart=/usr/bin/node main.js
+Restart=always
+RestartSec=10
+Environment=NODE_ENV=production
+EnvironmentFile=/opt/healthlink-bot/.env
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/healthlink-bot
+
+# Resource limits
+LimitNOFILE=65536
+MemoryMax=512M
+
+[Install]
+WantedBy=multi-user.target
