@@ -298,10 +298,10 @@
     },
     {
         "question" : "Comment scanner un QR code healthlink?",
-        "response": "Pour scanner un QR code HealthLink, vous pouvez utiliser l'application HealthLink ou tout autre application de scan QR code. Vous pouvez également scanner le QR code avec votre caméra de téléphone. La maniere sure c'est le faire directement sur https://gethealth.link/public-scan."
+        "answer": "Pour scanner un QR code HealthLink, vous pouvez utiliser l'application HealthLink ou tout autre application de scan QR code. Vous pouvez également scanner le QR code avec votre caméra de téléphone. La maniere sure c'est le faire directement sur https://gethealth.link/public-scan."
     },
     {
         "question": "Comment verifier mon profil vital healthlink?",
-        "response": "Pour verifier votre profil vital HealthLink, vous pouvez utiliser l'application HealthLink ou tout autre application de scan QR code. Vous pouvez également scanner le QR code avec votre caméra de téléphone. La maniere sure c'est le faire directement sur https://gethealth.link/public-scan."
+        "answer": "Pour verifier votre profil vital HealthLink, vous pouvez utiliser l'application HealthLink ou tout autre application de scan QR code. Vous pouvez également scanner le QR code avec votre caméra de téléphone. La maniere sure c'est le faire directement sur https://gethealth.link/public-scan."
     }
 ]
