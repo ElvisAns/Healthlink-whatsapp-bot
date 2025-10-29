@@ -1,15 +1,15 @@
 [
     {
         "question": "Comment scanner un bracelet HealthLink?",
-        "answer": "Pour scanner un bracelet HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR la caméra de votre smartphone."
+        "answer": "Pour scanner un bracelet HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR via la caméra de votre smartphone."
     },
     {
         "question": "Comment scanner une carte HealthLink?",
-        "answer": "Pour scanner une carte HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR la caméra de votre smartphone."
+        "answer": "Pour scanner une carte HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR via la caméra de votre smartphone."
     },
     {
         "question" : "Comment scanner un QR code HealthLink?",
-        "answer": "Pour scanner un QR code HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR la caméra de votre smartphone."
+        "answer": "Pour scanner un QR code HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR via la caméra de votre smartphone."
     },
     {
         "question" : "Healthlink fonctionne-t-il sans internet?",
