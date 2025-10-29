@@ -1,5 +1,29 @@
 [
     {
+        "question": "Comment scanner un bracelet HealthLink?",
+        "answer": "Pour scanner un bracelet HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR la caméra de votre smartphone."
+    },
+    {
+        "question": "Comment scanner une carte HealthLink?",
+        "answer": "Pour scanner une carte HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR la caméra de votre smartphone."
+    },
+    {
+        "question" : "Comment scanner un QR code HealthLink?",
+        "answer": "Pour scanner un QR code HealthLink, vous pouvez utiliser l'application HealthLink via https://gethealth.link/public-scan ou scanner le code QR la caméra de votre smartphone."
+    },
+    {
+        "question" : "Healthlink fonctionne-t-il sans internet?",
+        "answer": "Oui. Grâce à la NFC, les données vitales de base (groupe sanguin, allergies, contacts d’urgence) restent accessibles sans internet. En urgence, le personnel médical scanne votre bracelet et accède à ces infos sans application ni connexion."
+    },
+    {
+        "question" : "Healthlink a-t-il un assistant IA?",
+        "answer": "Oui. HealthLink comprend un assistant de chat IA intégré. Vous recevez des crédits quotidiens gratuits pour poser des questions sur votre santé (conseils sur symptômes, préparation de rendez-vous). Packs de crédits premium disponibles. Rendez-vous sur https://gethealth.link"
+    },
+    {
+        "question" : "A propos de HealthLink",
+        "answer": "HealthLink (prononcé 'F Link') est une plateforme de santé connectée qui numérise les dossiers médicaux des utilisateurs et les rend accessibles partout via des bracelets ou cartes intelligents contenant un code QR et une puce NFC. En cas d'urgence, un secouriste peut scanner le QR/NFC pour récupérer immédiatement les données critiques du patient (allergies, groupe sanguin, médicaments, contacts d'urgence). La mission de HealthLink est de sauver des vies. Même si vous êtes inconscient, votre bracelet parle pour vous. Vous pouvez en savoir plus sur https://gethealth.link/a-propos"
+    },
+    {
         "question": "Qu'est-ce que HealthLink?",
         "answer": "HealthLink (prononcé 'F Link') est une plateforme de santé connectée qui numérise les dossiers médicaux des utilisateurs et les rend accessibles partout via des bracelets ou cartes intelligents contenant un code QR et une puce NFC. En cas d'urgence, un secouriste peut scanner le QR/NFC pour récupérer immédiatement les données critiques du patient (allergies, groupe sanguin, médicaments, contacts d'urgence). La mission de HealthLink est de sauver des vies. Même si vous êtes inconscient, votre bracelet parle pour vous. Créez votre compte sur https://gethealth.link/register"
     },
