@@ -172,6 +172,8 @@ Votre sécurité est notre priorité.`;
             const media1 = MessageMedia.fromFilePath('images/product_grid.jpg');
             const media2 = MessageMedia.fromFilePath('images/product-poster-min-fr.jpg');
             mediaFiles = [media2, media1];
+        } else if((text.includes('Merci') || text.includes('Merci beaucoup') || text.includes('Merci beaucoup!')) && text.length < 20) { // if the message is less than 20 characters and includes "Merci", it is a thank you message
+            finalMessage = `De rien! N'hésitez pas à me contacter si vous avez d'autres questions.`;
         } else {
             // Just greetings
             finalMessage = `${salutation}
@@ -193,6 +195,22 @@ Tapez "go" pour une présentation complète.`;
             const media2 = MessageMedia.fromFilePath('images/product-poster-min-fr.jpg');
             mediaFiles = [media2, media1];
         }
+        // send lead to MAKE webhook
+        const headers = {
+            'x-make-apikey': process.env.MAKE_API_KEY,
+            'Content-Type': 'application/json',
+          };
+          const make_request_body = JSON.stringify({
+            from: from,
+            message: text,
+            response: finalMessage
+          });
+          const res = await fetch(process.env.MAKE_WEBHOOK_URL, {
+            method: 'POST',
+            headers: headers,
+            body: make_request_body
+          });
+          console.log(res.status, res.body);
 
         await simulateTypingAndSend(client, from, finalMessage, mediaFiles);
         log('info', `Message sent to ${from}: ${body.substring(0, 50)}...`);
